@@ -417,15 +417,17 @@ header > button {
 }
 
 .community-content > h1 {
-  font-size: 5rem;
-  margin-top: -7rem;
-  margin-bottom: 3rem;
+  font-size: 4rem;
+  margin-top: -8rem;
+  margin-bottom: 1rem;
+  max-width: 50rem;
 }
 
 .community-content > p {
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   margin-bottom: 1.5rem;
   line-height: 1.7;
+  max-width: 49rem;
 }
 
 .community-content > button {
