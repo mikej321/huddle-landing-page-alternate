@@ -372,7 +372,7 @@ i:hover {
   display: grid;
   grid-template-areas: "header header"
                        "community-content community-image";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 590px 1fr;
   max-width: 100vw;
   padding-inline: 5rem;
   gap: 5rem;
@@ -414,20 +414,20 @@ header > button {
   align-self: center;
   text-align: left;
   position: relative;
+  
 }
 
 .community-content > h1 {
   font-size: 4rem;
   margin-top: -8rem;
   margin-bottom: 1rem;
-  max-width: 50rem;
+  
 }
 
 .community-content > p {
   font-size: 1.7rem;
   margin-bottom: 1.5rem;
   line-height: 1.7;
-  max-width: 49rem;
 }
 
 .community-content > button {
@@ -443,9 +443,10 @@ header > button {
 
 .community-image {
   grid-area: community-image;
-  max-width: 80rem;
+  max-width: 150rem;
   justify-self: center;
   margin-bottom: 5rem;
+
 }
 
 .pros-section {
